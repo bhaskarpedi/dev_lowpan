@@ -925,7 +925,7 @@ static void Mrfi_SyncPinRxIsr(void)
 
 
             /* call external, higher level "receive complete" processing routine */
-            MRFI_RxCompleteISR();
+            /*BSKR: MRFI_RxCompleteISR(); */
           }
         }
       }

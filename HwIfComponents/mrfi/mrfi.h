@@ -111,6 +111,10 @@
 #define MRFI_RADIO_STATE_IDLE     2
 #define MRFI_RADIO_STATE_RX       3
 
+/* BSKR: Parameters earlier defined in config files */
+#define MAX_HOPS 3
+#define SW_TIMER
+
 /* Platform constant used to calculate worst-case for an application
  * acknowledgment delay. Used in the NWK_REPLY_DELAY() macro.
  *
